@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide_du_bleu=self.webpackChunkguide_du_bleu||[]).push([[4347],{1062:e=>{e.exports=JSON.parse('{"allTagsPath":"/guidedubleu/blog/tags","slug":"/guidedubleu/blog/tags/hello","name":"hello","count":2,"permalink":"/guidedubleu/blog/tags/hello"}')}}]);
