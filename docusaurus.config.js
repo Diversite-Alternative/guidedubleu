@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Le Guide du Bleu',
   tagline: "Bien souvent la solution au problème d'une personne est l'expérience de l'autre",
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com',
+  baseUrl: '/guidedubleu/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Diversite-Alternative', // Usually your GitHub org/user name.
+  projectName: 'guidedubleu', // Usually your repo name.
+  deployementBranch: "gh-pages",
 
   presets: [
     [
