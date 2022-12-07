@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Bienvenue en France ',
+    title: 'Ameliorer',
     Svg: require('../../static/img/student_board.svg').default,
     description: (
       <>
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Etudier en France",
+    title: "Faciliter",
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Qui sommes-nous ?",
+    title: "Intégrer",
     Svg: require('../../static/img/divalt_logo_grand.svg').default,
     description: (
       <>

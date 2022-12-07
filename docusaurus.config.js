@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Le Guide du Bleu',
-  tagline: "Bien souvent la solution au problème d'une personne est l'expérience de l'autre",
+  //tagline: "Pour améliorer mais surtout faciliter l’intégration des primo-arrivants en France.",
   url: 'https://github.com',
   baseUrl: '/guidedubleu/',
   onBrokenLinks: 'throw',
@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'Diversite-Alternative', // Usually your GitHub org/user name.
   projectName: 'guidedubleu', // Usually your repo name.
-  deployementBranch: "gh-pages",
+  //deploymentBranch: "gh-pages",
 
   presets: [
     [
@@ -55,17 +55,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Commencez-ici',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://diversitealternative.org/',
+            label: 'Diversité Alternative',
             position: 'right',
           },
         ],
       },
+      algolia: {
+        apiKey: 'c5f3b00a2e9685927926f4a5f162313e',
+        indexName:  'Guide du Bleu',
+        appId: 'NEJ43K0VCW',
+      },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Le Guide du Bleu',
             items: [
               {
                 label: 'Tutoriel',
@@ -74,7 +80,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'Réseaux Sociaux',
+            title: 'Nos Réseaux Sociaux',
             items: [
               {
                 label: 'LinkedIn',
@@ -96,7 +102,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Divalt.`,
+        copyright: `© Diversité Alternative - ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
