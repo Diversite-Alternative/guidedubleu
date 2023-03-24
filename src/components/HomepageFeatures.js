@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/student_board.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Iste repellat, excepturi nam, enim accusantium aspernatur
+        
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Iste repellat, excepturi nam, enim accusantium aspernatur 
+         
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/divalt_logo_grand.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Iste repellat, excepturi nam, enim accusantium aspernatur
+        
       </>
     ),
   },
