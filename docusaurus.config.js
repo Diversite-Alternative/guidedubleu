@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Le Guide du Bleu',
   //tagline: "Pour améliorer mais surtout faciliter l’intégration des primo-arrivants en France.",
   url: 'https://github.com',
-  baseUrl: '/guidedubleu/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
